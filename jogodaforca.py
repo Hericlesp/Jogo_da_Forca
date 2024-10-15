@@ -31,25 +31,6 @@ print("\n ")
 print("\n ")
 
 
-def cond(a):
-    erro ==0
-    print("\n ")
-    print('       ___________________         ')
-    print('       ||               \|/        ')
-    print('       ||                |         ')
-    print('       ||                       ')
-    print('       ||                   ')
-    print('       ||                          ')
-    print('       ||                         ')
-    print('       ||                        ')
-    print('       ||                      ')
-    print('       ||                       ')
-    print('       ||                       ')
-    print('       ||                          ')
-    print('       ||                          ')
-    print('       ||                          ')
-    print("\n ")
-    print("\n ")
     
 def cond(a):
  erro==1
