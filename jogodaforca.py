@@ -11,16 +11,17 @@ print('        ESCOLHA A PALAVRA DA VEZ!!!       ')
 print('                                ')
 print('                                ')
 
-pchave=str(input("           "))
+pchave=str(input("           ")).upper()
 
 import os
 os.system ('cls')
 #===============================================================================================
 #PARTE 2
 letras_acertadas=[ '__' for letra in pchave]
+lescolh=[]
 enforcou=False
 acertou=False
-erros=0
+erro=0
 print("                #JOGO DA FORCA#   ")
 print("\n ")
 
@@ -29,10 +30,146 @@ print ("            ", (' ___ ' * numC))
 print("\n ")
 print("\n ")
 
-#print('   !!!  ESCOLHA UMA LETRA DE A à Z E BOA SORTE  !!!')
-#print("\n ")
-#lescolh=str(input("           "))
-#print("\n ")
+
+def cond(a):
+    erro ==0
+    print("\n ")
+    print('       ___________________         ')
+    print('       ||               \|/        ')
+    print('       ||                |         ')
+    print('       ||                       ')
+    print('       ||                   ')
+    print('       ||                          ')
+    print('       ||                         ')
+    print('       ||                        ')
+    print('       ||                      ')
+    print('       ||                       ')
+    print('       ||                       ')
+    print('       ||                          ')
+    print('       ||                          ')
+    print('       ||                          ')
+    print("\n ")
+    print("\n ")
+    
+def cond(a):
+ erro==1
+ print("\n ")
+ print('       ___________________         ')
+ print('       ||               \|/        ')
+ print('       ||                |         ')
+ print('       ||             ______          ')
+ print('       ||            (◉ _ ◉ )       ')
+ print('       ||                          ')
+ print('       ||                       ')
+ print('       ||                    ')
+ print('       ||                   ')
+ print('       ||                  ')
+ print('       ||                ')
+ print('       ||                          ')
+ print('       ||                          ')
+ print('       ||                          ')
+ print("\n ")
+ print("\n ")
+
+def cond(a):
+ erro==2
+ print("\n ")
+ print('       ___________________         ')
+ print('       ||               \|/        ')
+ print('       ||                |         ')
+ print('       ||             ______          ')
+ print('       ||            (◉ _ ◉ )       ')
+ print('       ||                |          ')
+ print('       ||                |          ')
+ print('       ||                |         ')
+ print('       ||                      ')
+ print('       ||                       ')
+ print('       ||                       ')
+ print('       ||                          ')
+ print('       ||                          ')
+ print('       ||                          ')
+ print("\n ")
+ print("\n ")
+
+def cond(a):
+ erro==3 
+ print("\n ")
+ print('       ___________________         ')
+ print('       ||               \|/        ')
+ print('       ||                |         ')
+ print('       ||             ______          ')
+ print('       ||            (◉ _ ◉ )       ')
+ print('       ||                |          ')
+ print('       ||              / |          ')
+ print('       ||             /  |         ')
+ print('       ||                      ')
+ print('       ||                       ')
+ print('       ||                       ')
+ print('       ||                          ')
+ print('       ||                          ')
+ print('       ||                          ')
+ print("\n ")
+ print("\n ")
+
+def cond(a):
+ erro==4
+ print("\n ")
+ print('       ___________________         ')
+ print('       ||               \|/        ')
+ print('       ||                |         ')
+ print('       ||             ______          ')
+ print('       ||            (◉ _ ◉ )       ')
+ print('       ||                |          ')
+ print('       ||              / | \         ')
+ print('       ||             /  |  \       ')
+ print('       ||                      ')
+ print('       ||                       ')
+ print('       ||                       ')
+ print('       ||                          ')
+ print('       ||                          ')
+ print('       ||                          ')
+ print("\n ")
+ print("\n ")
+
+def cond(a):
+ erro==5
+ print("\n ")
+ print('       ___________________         ')
+ print('       ||               \|/        ')
+ print('       ||                |         ')
+ print('       ||             ______          ')
+ print('       ||            (◉ _ ◉ )       ')
+ print('       ||                |          ')
+ print('       ||              / | \         ')
+ print('       ||             /  |  \       ')
+ print('       ||              /        ')
+ print('       ||             /          ')
+ print('       ||          <-|             ')
+ print('       ||                          ')
+ print('       ||                          ')
+ print('       ||                          ')
+ print("\n ")
+ print("\n ")
+
+def cond(a):
+ erro==6
+ print("\n ")
+ print('       ___________________         ')
+ print('       ||               \|/        ')
+ print('       ||                |         ')
+ print('       ||             ______          ')
+ print('       ||            (x _ x )       ')
+ print('       ||                |          ')
+ print('       ||              / | \         ')
+ print('       ||             /  |  \       ')
+ print('       ||              /   \     ')
+ print('       ||             /     \     ')
+ print('       ||          <-|       |->      ')
+ print('       ||                          ')
+ print('       ||                          ')
+ print('       ||                          ')
+ print("\n ")
+ print("\n ")
 
 
 
@@ -42,8 +179,8 @@ print("\n ")
 print('       ___________________         ')
 print('       ||               \|/        ')
 print('       ||                |         ')
-print('       ||             ______          ')
-print('       ||            (◉ _ ◉ )       ')
+print('       ||                       ')
+print('       ||                      ')
 print('       ||                          ')
 print('       ||                          ')
 print('       ||                          ')
@@ -67,7 +204,7 @@ print("\n ")
 while(not enforcou and not acertou):
     print(letras_acertadas)
     print('   !!!  ESCOLHA UMA LETRA DE A à Z E BOA SORTE  !!!')
-    lescolh=str(input("           "))
+    lescolh=str(input("           ")).upper()
 
     if(lescolh in pchave):
         index = 0
@@ -78,9 +215,9 @@ while(not enforcou and not acertou):
             index += 1 
 
         else:
-            erros+=1 
-            print('VOCE ERROU!')
-    enforcou = erros == 6
+            erro+=1 
+            print(cond(erro))
+    enforcou = erro == 6 
     acertou = '__' not in letras_acertadas
 if(acertou):
     print('PARABENS VOCE ACERTOU!!!')
