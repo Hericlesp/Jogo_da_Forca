@@ -32,8 +32,7 @@ print("\n ")
 
 
     
-def cond(a):
- erro==1
+def cond1():
  print("\n ")
  print('       ___________________         ')
  print('       ||               \|/        ')
@@ -52,8 +51,7 @@ def cond(a):
  print("\n ")
  print("\n ")
 
-def cond(a):
- erro==2
+def cond2():
  print("\n ")
  print('       ___________________         ')
  print('       ||               \|/        ')
@@ -72,8 +70,7 @@ def cond(a):
  print("\n ")
  print("\n ")
 
-def cond(a):
- erro==3 
+def cond3():
  print("\n ")
  print('       ___________________         ')
  print('       ||               \|/        ')
@@ -92,8 +89,7 @@ def cond(a):
  print("\n ")
  print("\n ")
 
-def cond(a):
- erro==4
+def cond4():
  print("\n ")
  print('       ___________________         ')
  print('       ||               \|/        ')
@@ -112,8 +108,7 @@ def cond(a):
  print("\n ")
  print("\n ")
 
-def cond(a):
- erro==5
+def cond5():
  print("\n ")
  print('       ___________________         ')
  print('       ||               \|/        ')
@@ -132,8 +127,7 @@ def cond(a):
  print("\n ")
  print("\n ")
 
-def cond(a):
- erro==6
+def cond6():
  print("\n ")
  print('       ___________________         ')
  print('       ||               \|/        ')
@@ -172,14 +166,6 @@ print("\n ")
 print("\n ")
 
 
-
-
-# for caractere in pchave:
-#     #for valid in caractere:
-#         if caractere == lescolh:
-#             print(lescolh, end='')
-#         elif caractere!= lescolh:
-#             print(' ___ ', end='' )
 
 
 while(not enforcou and not acertou):
@@ -222,27 +208,3 @@ print("\n ")
 print("\n ")
 print("\n ")
 
-#def desFoc(erros):
-
-
-# cont=0
-# #while cont<=numC:
-# for caractere in pchave:
-#       for valid in lescolh:
-#         if caractere == lescolh:
-#             print(lescolh, end='')
-#         elif caractere!= lescolh:
-#             print(' ___ ', end='' )
-#     print('   !!!  ESCOLHA UMA LETRA DE A à Z E BOA SORTE  !!!')
-
-# TENT
-# cont=0
-# while cont< numC:
-#     cont = cont + 1 
-#     for caractere in lescolh:
-#         if caractere == lescolh:
-#             print(lescolh, end='')
-#         elif caractere!= lescolh:
-#             print(' ___ ', end='' )
-        
-#    # print('   !!!  ESCOLHA UMA LETRA DE A à Z E BOA SORTE  !!!')
